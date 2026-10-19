@@ -8,6 +8,13 @@
 - test_python_basics.py, test_numpy_tasks.py — тесты на каждую функцию
 - grader_contracts/ — датаклассы
 
+## Быстрый старт
+
+Установка зависимостей
+```bash
+pip install -r requirements.txt
+```
+
 ## Проверка:
 
 1. Запуск тестов
