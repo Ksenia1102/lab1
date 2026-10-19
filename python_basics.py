@@ -96,37 +96,37 @@ def is_balanced_number(data: PositiveIntegerInput) -> bool:
     return sum(int(d) for d in left) == sum(int(d) for d in right)
 
 
-# if __name__ == "__main__":
-#     print("Ручная проверка\n")
+if __name__ == "__main__":
+    print("Ручная проверка\n")
     
-#     # Задание 1
-#     v_res = count_vowels(TextInput("hello world"))
-#     print(f"1. Гласные в 'hello world': {v_res}\n")
+    # Задание 1
+    v_res = count_vowels(TextInput("hello world"))
+    print(f"1. Гласные в 'hello world': {v_res}\n")
     
-#     # Задание 2
-#     u_res = has_unique_characters(TextInput("abcdef"))
-#     print(f"2. Уникальные символы в 'abcdef': {u_res}\n")
+    # Задание 2
+    u_res = has_unique_characters(TextInput("abcdef"))
+    print(f"2. Уникальные символы в 'abcdef': {u_res}\n")
     
-#     # Задание 3
-#     bits_res = count_one_bits(PositiveIntegerInput(7))
-#     print(f"3. Единичные биты для 7: {bits_res}\n")
+    # Задание 3
+    bits_res = count_one_bits(PositiveIntegerInput(7))
+    print(f"3. Единичные биты для 7: {bits_res}\n")
     
-#     # Задание 4
-#     mp_res = multiplicative_persistence(PositiveIntegerInput(39))
-#     print(f"4. Мультипликативная устойчивость 39: {mp_res}\n")
+    # Задание 4
+    mp_res = multiplicative_persistence(PositiveIntegerInput(39))
+    print(f"4. Мультипликативная устойчивость 39: {mp_res}\n")
     
-#     # Задание 5
-#     mse_res = mse(VectorPairInput([1, 2, 3], [2, 2, 2]))
-#     print(f"5. MSE [1,2,3] и [2,2,2]: {mse_res}\n")
+    # Задание 5
+    mse_res = mse(VectorPairInput([1, 2, 3], [2, 2, 2]))
+    print(f"5. MSE [1,2,3] и [2,2,2]: {mse_res}\n")
     
-#     # Задание 6
-#     pf_res = prime_factorization(PositiveIntegerInput(86240))
-#     print(f"6. Разложение 86240: {pf_res}\n")
+    # Задание 6
+    pf_res = prime_factorization(PositiveIntegerInput(86240))
+    print(f"6. Разложение 86240: {pf_res}\n")
     
-#     # Задание 7
-#     pyr_res = pyramid(PositiveIntegerInput(14))
-#     print(f"7. Пирамида для 14 кубиков: {pyr_res}\n")
+    # Задание 7
+    pyr_res = pyramid(PositiveIntegerInput(14))
+    print(f"7. Пирамида для 14 кубиков: {pyr_res}\n")
     
-#     # Задание 8
-#     bal_res = is_balanced_number(PositiveIntegerInput(1234006))
-#     print(f"8. Сбалансированность 1234006: {bal_res}")
+    # Задание 8
+    bal_res = is_balanced_number(PositiveIntegerInput(1234006))
+    print(f"8. Сбалансированность 1234006: {bal_res}")

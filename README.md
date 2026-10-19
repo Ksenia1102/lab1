@@ -25,4 +25,4 @@ pytest -v
 ```bash
 python plot_statistics.py
 ```
-3. Ручная проверка - раскомментируйте код main в скриптах python_basics.py и numpy_tasks.py
+3. Ручная проверка - запустите скрипты python_basics.py и numpy_tasks.py
